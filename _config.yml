@@ -25,7 +25,7 @@ description: A blog of Henry Zhang
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - A revision website: "www.myexpedio.com"
+    - A revision website: "https://www.myexpedio.com"
     - GitHub Pages: "https://github.com/Henry8772"
 
 # Image to show in the navigation bar - image must be a square (width = height)
