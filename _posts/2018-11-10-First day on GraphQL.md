@@ -9,7 +9,7 @@ tags: [GraphQL, programming]
 
  - A new API that was developed by **Facebook**
  - Allows **declarative data fetching** (where a client can specify excatly what data it needs from an API)
- - GraphQL server exposes single endpoints and responds with a specific data that a client asked for
+ - GraphQL server exposes single endpoint and responds with a specific data that a client asked for
 
 
 
