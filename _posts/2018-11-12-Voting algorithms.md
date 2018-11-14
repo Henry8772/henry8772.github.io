@@ -82,7 +82,6 @@ A majority vote means that a candidate is elected only when a majority of eligib
 
 In a majority vote, candidates winning the most votes in a district can enter Congress or municipal councils. This voting procedure is often used in direct elections. 
 
-![Illustration of majority voting](../img/approval.jpg)
 
 **Relative and absolute majority**
 
