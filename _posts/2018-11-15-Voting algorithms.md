@@ -60,6 +60,9 @@ To explain this in the easiest way, I would say it is like the lottery.
 
 In this type of voting system, the ballot of a single voter is selected at random, and that ballot decides the result of the election.
 
+![Illustration of random ballot](../img/random_ballot.jpg)
+
+
 The result of the election pretty much depends on luck and probability. Therefore, each candidate or option wins with a probability exactly equal to the fraction of the electorate favoring that candidate or option.
 
  - The random ballot method is decisive, in that there is no possibility of a tied vote, assuming that the selected voter has expressed a preference (if not then another ballot can be selected at random).
@@ -76,6 +79,8 @@ The result of the election pretty much depends on luck and probability. Therefor
 ## Ranked pairs
 
 Ranked pairs select a single winner.
+
+![Illustration of ranked pairs](../img/ranked_pairs_example.png)
 
 **How it works**
  1. The voter is given a pair of the candidate. (For example A, B, and C)
