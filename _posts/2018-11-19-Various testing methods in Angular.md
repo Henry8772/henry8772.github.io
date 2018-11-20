@@ -73,8 +73,8 @@ ng generate pipe My
 ```
 
 This would create two files:
-	- ``my-pipe.ts`` — This is the main code file where we put the code for the pipe.
-	- ``my-pipe.spec.ts`` — This is the jasmine test suite for the pipe.
+ - ``my-pipe.ts`` — This is the main code file where we put the code for the pipe.
+ - ``my-pipe.spec.ts`` — This is the jasmine test suite for the pipe.
 
 The spec file will have some code already bootstrapped, like so:
 
@@ -92,9 +92,9 @@ describe('Pipe: My', () => {
 
 **Run the test**
 
-	1. In the project root.
-	2. Type ``ng serve``
-	3. Watch how it goes ;) (It will automatically change when you change some codes in the project)
+ 1. In the project root.
+ 2. Type ``ng serve``
+ 3. Watch how it goes ;) (It will automatically change when you change some codes in the project)
 	
 	
 	
@@ -103,7 +103,7 @@ describe('Pipe: My', () => {
 A tesing method that run the code as a group of many units combined together.
 
 The purpose:
-	- To find the bugs and faults between each intergrated units.
+ - To find the bugs and faults between each intergrated units.
 	
 **Example of integration test:**
 
