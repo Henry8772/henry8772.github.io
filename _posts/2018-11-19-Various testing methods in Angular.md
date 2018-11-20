@@ -39,22 +39,22 @@ Jasimine and BDD are written in human readable format, therefore non-technical p
 
 For example:
 
-``
+```
 function helloWorld() {
 	return 'Hello world!';
 }
-``
+```
 
 In ``jasmine test spec``:
 
-``
+```
 describe('Hello world', () => {
 	it('says hello', () => {
 	expect(helloWorld()) 
 		.toEqual('Hello world!');
 	});
 });
-``
+```
 
 For a deeper level of Jasmine, please go [here](https://codecraft.tv/courses/angular/unit-testing/jasmine-and-karma/).
 
@@ -68,9 +68,9 @@ As we created an Angular project in Angular CLI, it automatically generates unit
 
 If we create a Pipe using the CLI like so:
 
-``
+```
 ng generate pipe My
-``
+```
 
 This would create two files:
 	- ``my-pipe.ts`` — This is the main code file where we put the code for the pipe.
@@ -78,7 +78,7 @@ This would create two files:
 
 The spec file will have some code already bootstrapped, like so:
 
-``
+```
 import { TestBed, async } from '@angular/core/testing';
 import { MyPipe } from './my.pipe';
 
@@ -88,7 +88,7 @@ describe('Pipe: My', () => {
     expect(pipe).toBeTruthy();
   });
 });
-``
+```
 
 **Run the test**
 
@@ -107,7 +107,7 @@ The purpose:
 	
 **Example of integration test:**
 
-``
+```
 beforeEach(
   async(() => {
     TestBed.configureTestingModule({
@@ -117,7 +117,7 @@ beforeEach(
     }).compileComponents();
   })
 );
-``
+```
 
 In integration tests the points of integration are tested:
   - correct output events chain
@@ -126,7 +126,7 @@ In integration tests the points of integration are tested:
 
 **Here's an example of unit test for you to compare with integration, you will be able to spot the differences:**
 
-``
+```
   beforeEach(
     async(() => {
       TestBed.configureTestingModule({
@@ -136,7 +136,7 @@ In integration tests the points of integration are tested:
       }).compileComponents();
     })
   );
-``
+```
 
 
 
