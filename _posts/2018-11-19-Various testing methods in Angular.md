@@ -112,7 +112,6 @@ For example we have an app like this:
 We can write an interation test for the whole software:
 
 ``
-
 import {TestBed, async, ComponentFixture, inject} from '@angular/core/testing';
 import {AppCmp} from './app.component';
 import {AppModule} from './app.module';
