@@ -118,6 +118,7 @@ beforeEach(
   })
 );
 ``
+
 In integration tests the points of integration are tested:
   - correct output events chain
   - correct input values chain
