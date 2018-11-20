@@ -106,21 +106,21 @@ The purpose:
 	- To find the bugs and faults between each intergrated units.
 	
 **Example of integration test:**
-``
 
-  beforeEach(
-    async(() => {
-      TestBed.configureTestingModule({
-        providers: [SomeProvider],
-        declarations: [DropzoneComponent, DocumentsComponent, FoldersComponent],
-        schemas: [CUSTOM_ELEMENTS_SCHEMA]
-      }).compileComponents();
-    })
-  );
-  ``
-  In integration tests the points of integration are tested:
-  	- correct output events chain
-	- correct input values chain
+``
+beforeEach(
+  async(() => {
+    TestBed.configureTestingModule({
+      providers: [SomeProvider],
+      declarations: [DropzoneComponent, DocumentsComponent, FoldersComponent],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    }).compileComponents();
+  })
+);
+``
+In integration tests the points of integration are tested:
+  - correct output events chain
+  - correct input values chain
 	
 
 **Here's an example of unit test for you to compare with integration, you will be able to spot the differences:**
